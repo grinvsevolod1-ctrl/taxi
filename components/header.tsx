@@ -10,7 +10,7 @@ export function Header() {
         <div className="flex items-center gap-2 sm:gap-3">
           <a
             href="tel:+375256073217"
-            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 text-black transition-all hover:scale-110 hover:bg-yellow-500 active:scale-95"
+            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
             aria-label="Позвонить"
           >
             <Phone className="h-4 w-4" />
@@ -20,7 +20,7 @@ export function Header() {
             href="https://t.me/+375256073217"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 text-black transition-all hover:scale-110 hover:bg-yellow-500 active:scale-95"
+            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
             aria-label="Telegram"
           >
             <Send className="h-4 w-4" />
@@ -30,7 +30,7 @@ export function Header() {
             href="https://wa.me/375256073217"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 text-black transition-all hover:scale-110 hover:bg-yellow-500 active:scale-95"
+            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
             aria-label="WhatsApp"
           >
             <MessageCircle className="h-4 w-4" />

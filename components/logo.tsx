@@ -1,14 +1,12 @@
-import { Wind } from "lucide-react"
+import { Briefcase } from "lucide-react"
 
 export function Logo() {
   return (
     <div className="flex items-center gap-2">
-      <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-500 shadow-md">
-        <Wind className="h-5 w-5 text-black" />
+      <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-yellow-300 to-yellow-400 shadow-md">
+        <Briefcase className="h-5 w-5 text-gray-800" />
       </div>
-      <span className="text-lg font-bold sm:text-xl">
-        <span className="text-yellow-500">Быстрее</span> <span className="text-gray-800">Ветра</span>
-      </span>
+      <span className="text-lg font-bold text-gray-800 sm:text-xl">Работа в такси</span>
     </div>
   )
 }
