@@ -35,6 +35,24 @@ export function Header() {
           >
             <MessageCircle className="h-4 w-4" />
           </a>
+          <a
+            href="https://wa.me/375256073217"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
+            aria-label="WhatsApp"
+          >
+            <MessageCircle className="h-4 w-4" />
+          </a>
+          <a
+                href="viber://chat?number=%2B375256073217"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
+                 aria-label="Viber"
+            >
+              <MessageCircle className="h-4 w-4" />
+            </a>
         </div>
       </div>
     </header>

@@ -46,6 +46,15 @@ export function Footer() {
                 <MessageCircle className="h-5 w-5 flex-shrink-0" />
                 <span>WhatsApp</span>
               </a>
+              <a
+                href="viber://chat?number=%2B375256073217"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-sm text-slate-300 transition-colors hover:text-accent"
+              >
+                <MessageCircle className="h-5 w-5 flex-shrink-0" />
+                <span>Viber</span>
+              </a>
             </div>
           </div>
 
