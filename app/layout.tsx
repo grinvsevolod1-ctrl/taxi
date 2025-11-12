@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Работа водителем в такси – Выгодные условия 40%",
   description:
     "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Свободный график, стабильный доход.",
-  generator: "v0.app",
+  generator: "netnext",
   icons: {
     icon: [
       {
