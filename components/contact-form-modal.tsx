@@ -7,8 +7,14 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
-import { Loader2, Send } from "lucide-react"
+import { Loader2, Send } from 'lucide-react'
 import { useToast } from "@/hooks/use-toast"
+
+declare global {
+  interface Window {
+    ym?: (id: number, action: string, target: string) => void
+  }
+}
 
 interface ContactFormModalProps {
   isOpen: boolean
@@ -38,6 +44,10 @@ export function ContactFormModal({ isOpen, onClose }: ContactFormModalProps) {
       })
 
       if (response.ok) {
+        if (typeof window !== 'undefined' && window.ym) {
+          window.ym(105319469, 'reachGoal', 'submit_application')
+        }
+        
         toast({
           title: "Заявка отправлена!",
           description: "Мы свяжемся с вами в ближайшее время.",
