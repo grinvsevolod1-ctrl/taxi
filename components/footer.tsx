@@ -14,7 +14,7 @@ export function Footer() {
             <p className="text-pretty text-sm leading-relaxed text-slate-300">
               Лучшие условия для водителей такси. Официальное трудоустройство, гибкий график и стабильный доход.
             </p>
-            <p className="text-xs text-slate-400">ООО "ИВЕНТ ТАЙМ" УНП: 491389890</p>
+            <p className="text-xs text-slate-400">УНП: 15121242</p>
           </div>
 
           {/* Контакты */}
@@ -45,15 +45,6 @@ export function Footer() {
               >
                 <MessageCircle className="h-5 w-5 flex-shrink-0" />
                 <span>WhatsApp</span>
-              </a>
-              <a
-                href="viber://chat?number=%2B375256073217"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 text-sm text-slate-300 transition-colors hover:text-accent"
-              >
-                <MessageCircle className="h-5 w-5 flex-shrink-0" />
-                <span>Viber</span>
               </a>
             </div>
           </div>
@@ -111,7 +102,7 @@ export function Footer() {
         <div className="mt-12 border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-slate-400 sm:flex-row sm:text-left">
             <p>© {new Date().getFullYear()} Работа в такси. Все права защищены.</p>
-            <p className="text-xs">ООО "ИВЕНТ ТАЙМ" УНП: 491389890</p>
+            <p className="text-xs">УНП 15121242</p>
           </div>
         </div>
       </div>
