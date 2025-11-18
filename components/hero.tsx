@@ -43,8 +43,8 @@ export function Hero() {
             <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-yellow-300 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-yellow-400 sm:h-20 sm:w-20">
               <DollarSign className="h-9 w-9 text-gray-900 sm:h-11 sm:w-11" />
             </div>
-            <div className="text-2xl font-bold text-gray-900 sm:text-3xl">Выгодные условия для водителей</div>
-            <div className="text-sm font-semibold leading-tight text-gray-700">в Минске, Могилеве и Витебске</div>
+            <div className="text-sm font-semibold leading-tight text-gray-700">Выгодные условия для водителей
+в Минске, Могилеве и Витебске</div>
           </div>
 
           <div className="group flex flex-col items-center gap-4 rounded-2xl border-2 border-yellow-300 bg-white p-6 text-center shadow-xl transition-all duration-300 hover:scale-105 hover:border-yellow-400 hover:shadow-2xl sm:p-8">
