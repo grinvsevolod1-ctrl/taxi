@@ -8,6 +8,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin", "cyrillic"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://taxi-work.vercel.app"), // Замените на ваш реальный домен
   title: "Работа водителем в такси – Выгодные условия 40%",
   description:
     'Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график, обучение за наш счет. ТО и обслуживание бесплатно. ООО "ИвентТайм" УНП 491389890',
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
     "гибкий график работы",
     "авто для работы",
     "обучение водителей",
+    "Минск",
+    "Могилев",
+    "Витебск",
   ],
   authors: [{ name: "Работа в такси" }],
   creator: "Работа в такси",
@@ -39,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    url: "https://rabotavtaksi.by",
+    url: "https://taxi-work.vercel.app",
     title: "Работа водителем в такси – Выгодные условия 40%",
     description:
       "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график.",
@@ -55,23 +59,6 @@ export const metadata: Metadata = {
     google: "google-site-verification-code",
   },
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
