@@ -8,7 +8,10 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin", "cyrillic"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://taxi-work.vercel.app"), // Замените на ваш реальный домен
+  metadataBase: new URL("https://rabotavtaksi.by"), // Замените на ваш реальный домен
+  alternates: {
+    canonical: "/",
+  },
   title: "Работа водителем в такси – Выгодные условия 40%",
   description:
     'Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график, обучение за наш счет. ТО и обслуживание бесплатно. ООО "ИвентТайм" УНП 491389890',
@@ -25,7 +28,14 @@ export const metadata: Metadata = {
     "Минск",
     "Могилев",
     "Витебск",
+    "работа водителем Минск",
+    "работа водителем Могилев",
+    "работа водителем Витебск",
   ],
+  other: {
+    "geo.region": "BY",
+    "geo.placename": "Minsk",
+  },
   authors: [{ name: "Работа в такси" }],
   creator: "Работа в такси",
   publisher: "Работа в такси",
@@ -43,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    url: "https://taxi-work.vercel.app",
+    url: "https://rabotavtaksi.by",
     title: "Работа водителем в такси – Выгодные условия 40%",
     description:
       "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график.",
