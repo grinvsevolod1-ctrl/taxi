@@ -104,8 +104,22 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-slate-400 sm:flex-row sm:text-left">
-            <p>© {new Date().getFullYear()} Работа в такси. Все права защищены.</p>
-            <p className="text-xs">ООО "ИвентТайм" УНП 491389890</p>
+            <div className="flex flex-col gap-2 sm:gap-1">
+              <p>© {new Date().getFullYear()} Работа в такси. Все права защищены.</p>
+              <p className="text-xs">ООО "ИвентТайм" УНП 491389890</p>
+            </div>
+            {/* Добавлена информация о разработчике со ссылкой */}
+            <div className="text-xs">
+              <p>Designed And Developed by</p>
+              <a
+                href="https://www.netnext.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-accent transition-colors hover:text-accent/80"
+              >
+                NetNext Studio
+              </a>
+            </div>
           </div>
         </div>
       </div>
