@@ -15,8 +15,8 @@ export default function Home() {
         "@type": "Organization",
         "@id": "https://taxi-work.vercel.app/#organization",
         name: 'ООО "ИвентТайм"',
-        url: "https://taxi-work.vercel.app",
-        logo: "https://taxi-work.vercel.app/icon.png",
+        url: "https://rabotavtaksi.by",
+        logo: "https://rabotavtaksi.by/icon.png",
         contactPoint: {
           "@type": "ContactPoint",
           telephone: "+375256073217",
