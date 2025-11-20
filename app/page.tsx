@@ -1,6 +1,10 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
+import { Stats } from "@/components/stats"
+import { Gallery } from "@/components/gallery"
+import { HowToStart } from "@/components/how-to-start"
 import { Requirements } from "@/components/requirements"
+import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -15,9 +19,9 @@ export default function Home() {
     employmentType: "FULL_TIME",
     hiringOrganization: {
       "@type": "Organization",
-      name: "Работа в такси",
+      name: 'ООО "ИвентТайм"',
       sameAs: "https://yourdomain.com",
-      identifier: "УНП 15121242",
+      identifier: "УНП 491389890",
     },
     jobLocation: {
       "@type": "Place",
@@ -42,20 +46,20 @@ export default function Home() {
       "ТО и обслуживание за счет компании",
       "Предоставление автомобиля",
     ],
-    qualifications:
-      "Водительское удостоверение категории В, стаж от 2 лет, медицинская справка не старше 2 лет",
+    qualifications: "Водительское удостоверение категории В, стаж от 2 лет, медицинская справка не старше 2 лет",
   }
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="min-h-screen">
         <Header />
         <Hero />
+        <Stats />
+        <Gallery />
+        <HowToStart />
         <Requirements />
+        <FAQ />
         <Footer />
       </main>
     </>

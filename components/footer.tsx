@@ -14,7 +14,10 @@ export function Footer() {
             <p className="text-pretty text-sm leading-relaxed text-slate-300">
               Лучшие условия для водителей такси. Официальное трудоустройство, гибкий график и стабильный доход.
             </p>
-            <p className="text-xs text-slate-400">УНП: 15121242</p>
+            <div className="space-y-1">
+              <p className="text-xs font-semibold text-slate-400">ООО "ИвентТайм"</p>
+              <p className="text-xs text-slate-400">УНП: 491389890</p>
+            </div>
           </div>
 
           {/* Контакты */}
@@ -102,7 +105,7 @@ export function Footer() {
         <div className="mt-12 border-t border-slate-700 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-slate-400 sm:flex-row sm:text-left">
             <p>© {new Date().getFullYear()} Работа в такси. Все права защищены.</p>
-            <p className="text-xs">УНП 15121242</p>
+            <p className="text-xs">ООО "ИвентТайм" УНП 491389890</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
 import "./globals.css"
@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] })
 export const metadata: Metadata = {
   title: "Работа водителем в такси – Выгодные условия 40%",
   description:
-    "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график, обучение за наш счет. ТО и обслуживание бесплатно. УНП 15121242",
+    'Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график, обучение за наш счет. ТО и обслуживание бесплатно. ООО "ИвентТайм" УНП 491389890',
   keywords: [
     "работа водителем",
     "работа в такси",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    url: "https://yourdomain.com",
+    url: "https://rabotavtaksi.by",
     title: "Работа водителем в такси – Выгодные условия 40%",
     description:
       "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто. Официальное трудоустройство, гибкий график.",
@@ -48,8 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Работа водителем в такси – Выгодные условия 40%",
-    description:
-      "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто.",
+    description: "Станьте водителем такси с лучшими условиями: 40% от кассы, предоставляем авто.",
   },
   verification: {
     yandex: "yandex-verification-code",
@@ -105,11 +104,7 @@ export default function RootLayout({
         </Script>
         <noscript>
           <div>
-            <img
-              src="https://mc.yandex.ru/watch/105319469"
-              style={{ position: "absolute", left: "-9999px" }}
-              alt=""
-            />
+            <img src="https://mc.yandex.ru/watch/105319469" style={{ position: "absolute", left: "-9999px" }} alt="" />
           </div>
         </noscript>
       </head>

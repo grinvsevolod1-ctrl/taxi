@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Briefcase, FileText, Wrench, DollarSign } from "lucide-react"
+import { Briefcase, FileText, Wrench, MapPin } from "lucide-react"
 import Image from "next/image"
 import { ContactFormModal } from "@/components/contact-form-modal"
 
@@ -41,10 +41,11 @@ export function Hero() {
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           <div className="group flex flex-col items-center gap-4 rounded-2xl border-2 border-yellow-300 bg-white p-6 text-center shadow-xl transition-all duration-300 hover:scale-105 hover:border-yellow-400 hover:shadow-2xl sm:p-8">
             <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-yellow-300 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-yellow-400 sm:h-20 sm:w-20">
-              <DollarSign className="h-9 w-9 text-gray-900 sm:h-11 sm:w-11" />
+              <MapPin className="h-8 w-8 text-gray-900 sm:h-10 sm:w-10" />
             </div>
-            <div className="text-2xl font-bold text-gray-900 sm:text-3xl">40%</div>
-            <div className="text-sm font-semibold leading-tight text-gray-700">от кассы</div>
+            <div className="text-base font-semibold leading-tight text-gray-800 sm:text-lg">
+              Работаем в Минске, Могилеве и Витебске
+            </div>
           </div>
 
           <div className="group flex flex-col items-center gap-4 rounded-2xl border-2 border-yellow-300 bg-white p-6 text-center shadow-xl transition-all duration-300 hover:scale-105 hover:border-yellow-400 hover:shadow-2xl sm:p-8">
