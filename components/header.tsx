@@ -17,7 +17,7 @@ export function Header() {
           </a>
 
           <a
-            href="https://t.me/+375256073217"
+            href="https://t.me/AlinkaAlinka111"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-300 text-gray-800 transition-all hover:scale-110 hover:bg-yellow-400 active:scale-95"
